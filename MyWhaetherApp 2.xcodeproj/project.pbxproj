@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6C7DE21F724C3400FEC198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7DE11F724C3400FEC198 /* AppDelegate.swift */; };
+		4C6C7DE41F724C3500FEC198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7DE31F724C3500FEC198 /* ViewController.swift */; };
+		4C6C7DE71F724C3500FEC198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C7DE51F724C3500FEC198 /* Main.storyboard */; };
+		4C6C7DE91F724C3500FEC198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C7DE81F724C3500FEC198 /* Assets.xcassets */; };
+		4C6C7DEC1F724C3500FEC198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C7DEA1F724C3500FEC198 /* LaunchScreen.storyboard */; };
+		4C6C7DF71F724C3500FEC198 /* MyWhaetherApp_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7DF61F724C3500FEC198 /* MyWhaetherApp_2Tests.swift */; };
+		4C6C7E021F724C3600FEC198 /* MyWhaetherApp_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7E011F724C3600FEC198 /* MyWhaetherApp_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6C7DF31F724C3500FEC198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6C7DD61F724C3300FEC198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6C7DDD1F724C3400FEC198;
+			remoteInfo = "MyWhaetherApp 2";
+		};
+		4C6C7DFE1F724C3600FEC198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6C7DD61F724C3300FEC198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6C7DDD1F724C3400FEC198;
+			remoteInfo = "MyWhaetherApp 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6C7DDE1F724C3400FEC198 /* MyWhaetherApp 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWhaetherApp 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C7DE11F724C3400FEC198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C6C7DE31F724C3500FEC198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C6C7DE61F724C3500FEC198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6C7DE81F724C3500FEC198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6C7DEB1F724C3500FEC198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6C7DED1F724C3500FEC198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C7DF21F724C3500FEC198 /* MyWhaetherApp 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWhaetherApp 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C7DF61F724C3500FEC198 /* MyWhaetherApp_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWhaetherApp_2Tests.swift; sourceTree = "<group>"; };
+		4C6C7DF81F724C3600FEC198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C7DFD1F724C3600FEC198 /* MyWhaetherApp 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWhaetherApp 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C7E011F724C3600FEC198 /* MyWhaetherApp_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWhaetherApp_2UITests.swift; sourceTree = "<group>"; };
+		4C6C7E031F724C3600FEC198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6C7DDB1F724C3400FEC198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C7DEF1F724C3500FEC198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C7DFA1F724C3600FEC198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6C7DD51F724C3300FEC198 = {
+			isa = PBXGroup;
+			children = (
+				4C6C7DE01F724C3400FEC198 /* MyWhaetherApp 2 */,
+				4C6C7DF51F724C3500FEC198 /* MyWhaetherApp 2Tests */,
+				4C6C7E001F724C3600FEC198 /* MyWhaetherApp 2UITests */,
+				4C6C7DDF1F724C3400FEC198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6C7DDF1F724C3400FEC198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C7DDE1F724C3400FEC198 /* MyWhaetherApp 2.app */,
+				4C6C7DF21F724C3500FEC198 /* MyWhaetherApp 2Tests.xctest */,
+				4C6C7DFD1F724C3600FEC198 /* MyWhaetherApp 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6C7DE01F724C3400FEC198 /* MyWhaetherApp 2 */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C7DE11F724C3400FEC198 /* AppDelegate.swift */,
+				4C6C7DE31F724C3500FEC198 /* ViewController.swift */,
+				4C6C7DE51F724C3500FEC198 /* Main.storyboard */,
+				4C6C7DE81F724C3500FEC198 /* Assets.xcassets */,
+				4C6C7DEA1F724C3500FEC198 /* LaunchScreen.storyboard */,
+				4C6C7DED1F724C3500FEC198 /* Info.plist */,
+			);
+			path = "MyWhaetherApp 2";
+			sourceTree = "<group>";
+		};
+		4C6C7DF51F724C3500FEC198 /* MyWhaetherApp 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C7DF61F724C3500FEC198 /* MyWhaetherApp_2Tests.swift */,
+				4C6C7DF81F724C3600FEC198 /* Info.plist */,
+			);
+			path = "MyWhaetherApp 2Tests";
+			sourceTree = "<group>";
+		};
+		4C6C7E001F724C3600FEC198 /* MyWhaetherApp 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6C7E011F724C3600FEC198 /* MyWhaetherApp_2UITests.swift */,
+				4C6C7E031F724C3600FEC198 /* Info.plist */,
+			);
+			path = "MyWhaetherApp 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6C7DDD1F724C3400FEC198 /* MyWhaetherApp 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C7E061F724C3600FEC198 /* Build configuration list for PBXNativeTarget "MyWhaetherApp 2" */;
+			buildPhases = (
+				4C6C7DDA1F724C3400FEC198 /* Sources */,
+				4C6C7DDB1F724C3400FEC198 /* Frameworks */,
+				4C6C7DDC1F724C3400FEC198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyWhaetherApp 2";
+			productName = "MyWhaetherApp 2";
+			productReference = 4C6C7DDE1F724C3400FEC198 /* MyWhaetherApp 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6C7DF11F724C3500FEC198 /* MyWhaetherApp 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C7E091F724C3600FEC198 /* Build configuration list for PBXNativeTarget "MyWhaetherApp 2Tests" */;
+			buildPhases = (
+				4C6C7DEE1F724C3500FEC198 /* Sources */,
+				4C6C7DEF1F724C3500FEC198 /* Frameworks */,
+				4C6C7DF01F724C3500FEC198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6C7DF41F724C3500FEC198 /* PBXTargetDependency */,
+			);
+			name = "MyWhaetherApp 2Tests";
+			productName = "MyWhaetherApp 2Tests";
+			productReference = 4C6C7DF21F724C3500FEC198 /* MyWhaetherApp 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C6C7DFC1F724C3600FEC198 /* MyWhaetherApp 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C7E0C1F724C3600FEC198 /* Build configuration list for PBXNativeTarget "MyWhaetherApp 2UITests" */;
+			buildPhases = (
+				4C6C7DF91F724C3600FEC198 /* Sources */,
+				4C6C7DFA1F724C3600FEC198 /* Frameworks */,
+				4C6C7DFB1F724C3600FEC198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6C7DFF1F724C3600FEC198 /* PBXTargetDependency */,
+			);
+			name = "MyWhaetherApp 2UITests";
+			productName = "MyWhaetherApp 2UITests";
+			productReference = 4C6C7DFD1F724C3600FEC198 /* MyWhaetherApp 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6C7DD61F724C3300FEC198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iFlame;
+				TargetAttributes = {
+					4C6C7DDD1F724C3400FEC198 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					4C6C7DF11F724C3500FEC198 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C6C7DDD1F724C3400FEC198;
+					};
+					4C6C7DFC1F724C3600FEC198 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C6C7DDD1F724C3400FEC198;
+					};
+				};
+			};
+			buildConfigurationList = 4C6C7DD91F724C3300FEC198 /* Build configuration list for PBXProject "MyWhaetherApp 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6C7DD51F724C3300FEC198;
+			productRefGroup = 4C6C7DDF1F724C3400FEC198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6C7DDD1F724C3400FEC198 /* MyWhaetherApp 2 */,
+				4C6C7DF11F724C3500FEC198 /* MyWhaetherApp 2Tests */,
+				4C6C7DFC1F724C3600FEC198 /* MyWhaetherApp 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6C7DDC1F724C3400FEC198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C7DEC1F724C3500FEC198 /* LaunchScreen.storyboard in Resources */,
+				4C6C7DE91F724C3500FEC198 /* Assets.xcassets in Resources */,
+				4C6C7DE71F724C3500FEC198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C7DF01F724C3500FEC198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C7DFB1F724C3600FEC198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6C7DDA1F724C3400FEC198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C7DE41F724C3500FEC198 /* ViewController.swift in Sources */,
+				4C6C7DE21F724C3400FEC198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C7DEE1F724C3500FEC198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C7DF71F724C3500FEC198 /* MyWhaetherApp_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6C7DF91F724C3600FEC198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C7E021F724C3600FEC198 /* MyWhaetherApp_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6C7DF41F724C3500FEC198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6C7DDD1F724C3400FEC198 /* MyWhaetherApp 2 */;
+			targetProxy = 4C6C7DF31F724C3500FEC198 /* PBXContainerItemProxy */;
+		};
+		4C6C7DFF1F724C3600FEC198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6C7DDD1F724C3400FEC198 /* MyWhaetherApp 2 */;
+			targetProxy = 4C6C7DFE1F724C3600FEC198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6C7DE51F724C3500FEC198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6C7DE61F724C3500FEC198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6C7DEA1F724C3500FEC198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6C7DEB1F724C3500FEC198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6C7E041F724C3600FEC198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C6C7E051F724C3600FEC198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6C7E071F724C3600FEC198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MyWhaetherApp 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnios.loginpage.MyWhaetherApp-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C6C7E081F724C3600FEC198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MyWhaetherApp 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnios.loginpage.MyWhaetherApp-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C6C7E0A1F724C3600FEC198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MyWhaetherApp 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnios.loginpage.MyWhaetherApp-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWhaetherApp 2.app/MyWhaetherApp 2";
+			};
+			name = Debug;
+		};
+		4C6C7E0B1F724C3600FEC198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MyWhaetherApp 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnios.loginpage.MyWhaetherApp-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWhaetherApp 2.app/MyWhaetherApp 2";
+			};
+			name = Release;
+		};
+		4C6C7E0D1F724C3600FEC198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "MyWhaetherApp 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnios.loginpage.MyWhaetherApp-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MyWhaetherApp 2";
+			};
+			name = Debug;
+		};
+		4C6C7E0E1F724C3600FEC198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "MyWhaetherApp 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learnios.loginpage.MyWhaetherApp-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MyWhaetherApp 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6C7DD91F724C3300FEC198 /* Build configuration list for PBXProject "MyWhaetherApp 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C7E041F724C3600FEC198 /* Debug */,
+				4C6C7E051F724C3600FEC198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6C7E061F724C3600FEC198 /* Build configuration list for PBXNativeTarget "MyWhaetherApp 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C7E071F724C3600FEC198 /* Debug */,
+				4C6C7E081F724C3600FEC198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C6C7E091F724C3600FEC198 /* Build configuration list for PBXNativeTarget "MyWhaetherApp 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C7E0A1F724C3600FEC198 /* Debug */,
+				4C6C7E0B1F724C3600FEC198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C6C7E0C1F724C3600FEC198 /* Build configuration list for PBXNativeTarget "MyWhaetherApp 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6C7E0D1F724C3600FEC198 /* Debug */,
+				4C6C7E0E1F724C3600FEC198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6C7DD61F724C3300FEC198 /* Project object */;
+}
