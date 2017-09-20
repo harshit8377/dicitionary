@@ -14,6 +14,8 @@
 		4C6C7DEC1F724C3500FEC198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C7DEA1F724C3500FEC198 /* LaunchScreen.storyboard */; };
 		4C6C7DF71F724C3500FEC198 /* MyWhaetherApp_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7DF61F724C3500FEC198 /* MyWhaetherApp_2Tests.swift */; };
 		4C6C7E021F724C3600FEC198 /* MyWhaetherApp_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7E011F724C3600FEC198 /* MyWhaetherApp_2UITests.swift */; };
+		4C6C7E101F724E8000FEC198 /* MyNewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7E0F1F724E8000FEC198 /* MyNewCellTableViewCell.swift */; };
+		4C6C7E161F725D8A00FEC198 /* secoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C7E151F725D8A00FEC198 /* secoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4C6C7DFD1F724C3600FEC198 /* MyWhaetherApp 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWhaetherApp 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6C7E011F724C3600FEC198 /* MyWhaetherApp_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWhaetherApp_2UITests.swift; sourceTree = "<group>"; };
 		4C6C7E031F724C3600FEC198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C7E0F1F724E8000FEC198 /* MyNewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNewCellTableViewCell.swift; sourceTree = "<group>"; };
+		4C6C7E151F725D8A00FEC198 /* secoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secoundViewController.swift; path = ../secoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				4C6C7DE11F724C3400FEC198 /* AppDelegate.swift */,
-				4C6C7DE31F724C3500FEC198 /* ViewController.swift */,
 				4C6C7DE51F724C3500FEC198 /* Main.storyboard */,
+				4C6C7DE31F724C3500FEC198 /* ViewController.swift */,
+				4C6C7E151F725D8A00FEC198 /* secoundViewController.swift */,
+				4C6C7E0F1F724E8000FEC198 /* MyNewCellTableViewCell.swift */,
 				4C6C7DE81F724C3500FEC198 /* Assets.xcassets */,
 				4C6C7DEA1F724C3500FEC198 /* LaunchScreen.storyboard */,
 				4C6C7DED1F724C3500FEC198 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				4C6C7DE41F724C3500FEC198 /* ViewController.swift in Sources */,
 				4C6C7DE21F724C3400FEC198 /* AppDelegate.swift in Sources */,
+				4C6C7E161F725D8A00FEC198 /* secoundViewController.swift in Sources */,
+				4C6C7E101F724E8000FEC198 /* MyNewCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
